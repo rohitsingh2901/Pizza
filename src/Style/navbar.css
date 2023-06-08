@@ -1,0 +1,24 @@
+@keyframes color {
+    0% { background-color: rgb(157, 90, 232); }
+    25% { background-color: blue; }
+    50% { background-color: rgb(21, 21, 60); }
+    100% { background-color: rgb(157, 90, 232); }
+  }
+  
+  .navbar {
+    
+    width: 100%;
+    animation: color 30s linear infinite;
+  }
+  
+
+  @keyframes rotate{
+    0%{ transform: rotate(-360deg); }
+    100%{ transform: rotate(360deg); }
+  }
+
+
+.pizza{
+  animation: rotate 400s infinite;
+}
+  
