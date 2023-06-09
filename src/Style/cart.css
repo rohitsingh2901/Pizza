@@ -1,0 +1,23 @@
+@media (max-width: 600px) {
+    .cart{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .cartText{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    .cartheading{
+    width: 94px;
+    }
+    .cartimg{
+        height: 30vw;
+        width: 30vw;
+    }
+  }
+  
+  
+
+ 
